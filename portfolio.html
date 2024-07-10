@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>My Portfolio</title>
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect"  href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+
+        <ul class="navlist"> 
+            
+            <li><a href="#about1">About Me</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#contact1">Contact</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <a href="#" class="nav-btn">Hire Me</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+   
+    <section class="hero">
+        <div class="hero-text">
+            <h6>Hello, <span>My Name is</span></h6>
+            <h1><span>Sadhna</span>Gautam</h1>
+            <h4> I am <span class="input"></span></h4>
+            <p>Becoming a Web Developer A web developer is a programmer that specializes in creating programs, applications, and websites that are implemented on the World Wide Web.  They are the technical specialists that are able to apply innovative design and coding principles to the design and structure of the websites that are used today .</p>
+
+            <div class="hero-icons">
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-whatsapp-fill"></i></a>
+            </div>
+            <div class="hero-btn">
+                <a href="#" class="btn">Download CV</a>
+                
+            </div>
+        </div>
+        <div class="hero-img">
+            <img src="portfolio_image.jpg.jpg">
+        </div>
+    </section>
+
+    <section class="about" section id="about1">
+        <h2>About Me</h2>
+        <p>I'm Sadhna Gautam, a passionate and dedicated professional specializing in Cybersecurity, Web Development, and Graphic Design. With a blend of technical expertise and creative flair, I strive to deliver innovative and secure solutions for modern digital challenges.
+            <br>
+            <font color="#ea5445"><h1><b>Skills:</h1></b> <br>
+           <b> Cyber Security:</b></font> Ensuring the protection of information systems by identifying and mitigating security risks. Proficient in security protocols, network defense, and incident response.
+            <br> 
+            <br>
+            <font color="#ea5445"><b>Web Development:</b> </font> Building responsive and user-friendly websites using the latest technologies. Proficient in HTML, CSS, JavaScript, and various web development frameworks to create dynamic and interactive web applications.
+            <br>
+            <br>
+            <font color="#ea5445"><b>Graphic Design:</b> </font> visually appealing designs that effectively communicate messages and enhance user experience. Skilled in using Adobe Creative Suite and other design tools to produce high-quality graphics for web and print.</p>
+        <div class="tab">
+            <button class="tablinks" onclick="showContent(event, 'skills')">Skills</button>
+            <button class="tablinks" onclick="showContent(event, 'experience')" id="defaultOpen">Experience</button>
+            <button class="tablinks" onclick="showContent(event, 'education')">Education</button>
+        </div>
+        <div id="skills" class="tabcontent">
+            <ul>
+                <li><span>Cyber Security :</span> 
+                linux</li>
+                <li><span>Web Development:</span> Web app Development</li>
+                <li><span>Graphic Designer:</span> Figma app</li>
+            </ul>
+        </div>
+        <div id="experience" class="tabcontent">
+            
+        </div>
+        <div id="education" class="tabcontent">
+            <ul>
+                <li><span>Currently pursuing:</span> Bachelor's degree in Computer Science with specialization in Cyber Security </li>
+                <li><span>2022:</span> Higher Secondary School</li>
+                <li><span>2020:</span> Secondary School</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="project" id="Projects">
+        <h2 class="section__title-1">
+            <h2><span>Projects</span></h2>
+        </h2>
+        <br>
+
+        <div class="project__conatiner grid">
+            <article class="project_card">
+                <div class="project__img">
+                    <video width="600" controls>
+                        <source src="calculator_Recording .mp4" type="video/mp4">
+                        
+                      </video>
+                    <a href="#" class="project__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+
+                <div class="projects__content">
+                    <h3 class="project__subtitle"></h3>
+                    <h2 class="project__title">Calculator</h2>
+
+                    <p class="project__discription">
+                        I have developed a fully functional calculator using HTML, CSS, and JavaScript. This project demonstrates my ability to create interactive web applications with a focus on user experience and functionality.
+                      <br>
+                      <br>
+<b>Features:</b>
+<br>
+ The calculator can perform addition, subtraction, multiplication, and division.<br>
+ The layout adapts to various screen sizes, making it usable on both desktop and mobile devices.<br>
+ The design is clean and user-friendly, ensuring a seamless user experience.<br>
+ Results are displayed instantly as the user inputs numbers and operations.<br>
+ <br>
+<b>Technologies Used:</b><br>
+<b>HTML:</b> Provides the structure and layout for the calculator interface.<br>
+<b>CSS: </b>Ensures a visually appealing and responsive design. <br>
+<b>JavaScript:</b> Handles the logic for the arithmetic operations and updates the display in real-time. <br>
+
+                    </p>
+                </div>
+
+                <div class="project__buttons"> 
+                
+                    <a href="https://github.com/" target="_blank"class="project__link">
+                        <i class="ri-github-line"></i> View
+                    </a>
+
+                    <a href="https://dribbble.com/" target="_blank"class="project__link">
+                        <i class="ri-dribbble-line"></i> View
+                    </a>
+                </div>
+            </article>
+            <br>
+            <article class="project_card">
+                <div class="project__img">
+                    <video width="600" controls>
+                        <source src="LandingPage_Recording.mp4" type="video/mp4">
+                        
+                      </video>
+                    <a href="#" class="project__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+
+                <div class="projects__content">
+                    <h3 class="project__subtitle"></h3>
+                    <h2 class="project__title">Landing Page</h2>
+
+                    <p class="project__discription">
+                        I have created a visually engaging landing page using HTML and CSS. This project showcases my skills in web design and front-end development, focusing on creating a user-friendly and aesthetically pleasing interface.
+                        <br>
+                        <br>
+                        <b>Features:</b> <br>
+                         The landing page features a sleek and modern design that captures the visitor's attention. <br>
+                        The design adapts seamlessly to various screen sizes, ensuring an optimal viewing experience on both desktop and mobile devices.<br>
+                        Includes navigation menus, buttons, and sections that provide a smooth user experience.<br>
+                         Organized sections for About Me, Skills, Projects, and Contact, each designed to provide clear and concise information.
+                         <br><br>
+                        <b>Technologies Used:</b> <br>
+                        <b>HTML: </b>Provides the structure and layout for the landing page.<br>
+                        <b>CSS: </b>Ensures a visually appealing and responsive design, utilizing modern styling techniques.<br>
+                    </p>
+                </div>
+
+                <div class="project__buttons">
+                    <a href="https://github.com/" target="_blank"class="project__link">
+                        <i class="ri-github-line"></i> View
+                    </a>
+
+                    <a href="https://dribbble.com/" target="_blank"class="project__link">
+                        <i class="ri-dribbble-line"></i> View
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="contact" section id="contact1">
+        <div class="contact-info">
+            <h2>Contact Me</h2>
+            <p><i class="ri-mail-line"></i> sadhnagautam669@gmail.com</p>
+            <p><i class="ri-phone-line"></i> 9355495090</p>
+            <div class="contact-icons">
+                <!-- Add your social media icons here -->
+            </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+            <p class="success-message" id="success-message" style="display: none;">Message sent successfully!</p>
+        </form>
+    </section>
+
+    <footer class="footer" id="footer">
+            
+                <a href="#">FAQ |</a>
+            
+            
+                <a href="#">About Me |</a>
+        
+            
+                <a href="#">Contact |</a>
+            
+            
+                <a href="#">Privacy Policy </a>
+            
+        
+        <p class="copyright">
+            @Sadhna Gautam | © All Rights Reserved
+        </p>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script type="text/javascript">
+        var types = new Typed(".input", {
+            strings:["Web Developer.", "Cyber Security Student.", "Graphic Designer."],
+            typeSpeed: 80,
+            backSpeed: 70,
+            loop: true
+        });
+
+        let menu = document.querySelector('#menu-icon');
+        let navlist = document.querySelector('.navlist');
+
+        menu.onclick = () => {
+            menu.classList.toggle('bx-x');
+            navlist.classList.toggle('open')
+        }
+
+        function showContent(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+</html>
